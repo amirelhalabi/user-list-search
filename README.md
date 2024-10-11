@@ -1,59 +1,88 @@
 User List Search
 ================
 
-A simple Angular application that displays a list of users and allows searching by user ID. Users can click on a user card to view their details.
+This is an Angular application that allows users to view and search a list of users from an API.
+
+Table of Contents
+-----------------
+
+*   [Features](#features)
+    
+*   [Technologies Used](#technologies-used)
+    
+*   [Installation](#installation)
+    
+*   [Running the Application](#running-the-application)
+    
+*   [Usage](#usage)
+    
+*   [Contributing](#contributing)
+    
+*   [License](#license)
+    
 
 Features
 --------
 
-*   Displays a paginated list of users
+*   View a list of users with pagination.
     
-*   Search functionality by user ID
+*   Search for users by ID.
     
-*   User detail view
+*   Click on user cards to view detailed information.
+    
+*   Responsive design.
     
 
-Prerequisites
--------------
+Technologies Used
+-----------------
 
-*   Node.js installed on your machine
+*   Angular: 15.2.10
     
-*   Angular CLI installed globally
+*   Node: 16.20.2
+    
+*   NPM: 8.19.4
+    
+*   TypeScript: 4.9.5
+    
+*   RxJS: 7.8.1
+    
+*   Angular Material: 15.2.9
     
 
 Installation
 ------------
 
-1.  Clone the repository:
+1.  Clone the repository:git clone [https://github.com/amirelhalabi/user-list-search.git](https://github.com/amirelhalabi/user-list-search.git)
     
-2.  Navigate to the project directory:
+2.  Navigate to the project directory:cd user-list-search
     
-3.  Install the necessary dependencies by running:
-    
-4.  Start the application using the Angular CLI by running:
+3.  Install dependencies:npm install
     
 
 Running the Application
 -----------------------
 
-To run the application, follow these steps:
-
-1.  Start the application using the Angular CLI by running "ng serve".
+1.  Navigate to the project directory:cd frontend-quiz
     
-2.  Open your web browser and navigate to "http://localhost:4200/" to view the application.
+2.  Start the development server:ng serve
+    
+3.  Open your browser and go to:http://localhost:4200
     
 
 Usage
 -----
 
-*   Enter a user ID in the search bar to view the corresponding user's details.
+*   Use the search bar to find users by their ID.
     
-*   Click on a user's card to navigate to their details page.
+*   Click on a user card to view more details about that user.
     
-*   Use the pagination buttons to browse through the user list.
-    
+
+Contributing
+------------
+
+Contributions are welcome! Please create a pull request for any improvements or features.
 
 License
 -------
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License.
