@@ -1,27 +1,59 @@
-# FrontendQuiz
+User List Search
+================
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.11.
+A simple Angular application that displays a list of users and allows searching by user ID. Users can click on a user card to view their details.
 
-## Development server
+Features
+--------
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+*   Displays a paginated list of users
+    
+*   Search functionality by user ID
+    
+*   User detail view
+    
 
-## Code scaffolding
+Prerequisites
+-------------
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+*   Node.js installed on your machine
+    
+*   Angular CLI installed globally
+    
 
-## Build
+Installation
+------------
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1.  Clone the repository:
+    
+2.  Navigate to the project directory:
+    
+3.  Install the necessary dependencies by running:
+    
+4.  Start the application using the Angular CLI by running:
+    
 
-## Running unit tests
+Running the Application
+-----------------------
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+To run the application, follow these steps:
 
-## Running end-to-end tests
+1.  Start the application using the Angular CLI by running "ng serve".
+    
+2.  Open your web browser and navigate to "http://localhost:4200/" to view the application.
+    
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Usage
+-----
 
-## Further help
+*   Enter a user ID in the search bar to view the corresponding user's details.
+    
+*   Click on a user's card to navigate to their details page.
+    
+*   Use the pagination buttons to browse through the user list.
+    
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+License
+-------
+
+This project is licensed under the MIT License - see the LICENSE file for details.
