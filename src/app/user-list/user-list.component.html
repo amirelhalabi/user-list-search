@@ -1,0 +1,26 @@
+<div class="header">
+    <input [(ngModel)]="searchTerm" class="search-bar" placeholder="Search User by ID"
+        (input)="onInputChange($event)" />
+    <div *ngIf="errorMessage" class="error-message">{{ errorMessage }}</div>
+</div>
+
+<div class="user-list">
+    <div *ngFor="let user of users" class="user-card" (click)="navigateToUser(user.id)">
+        <img [src]="user.avatar" alt="{{ user.first_name }} {{ user.last_name }}" />
+        <h3>{{ user.first_name }} {{ user.last_name }}</h3>
+        <p>ID: {{ user.id }}</p>
+    </div>
+</div>
+
+<div *ngIf="loading" class="loading-bar">
+    <div></div> 
+</div>
+
+<div class="pagination-container">
+    <div class="pagination">
+        <button (click)="goToPreviousPage()" [disabled]="currentPage === 1">Previous</button>
+        <button (click)="goToNextPage()" [disabled]="currentPage === totalPages">Next</button>
+    </div>
+</div>
+
+
